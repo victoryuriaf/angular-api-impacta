@@ -1,0 +1,16 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Tonynho Stark",
+            "email": "tonynho@aveng.com",
+            "phone": "15-91660-5478"
+        },
+        {
+            "id": 2,
+            "name": "Viuvinha Hulk",
+            "email": "v_hulk@aveng.com",
+            "phone": "11-98070-9090"
+        }
+    ]
+}
