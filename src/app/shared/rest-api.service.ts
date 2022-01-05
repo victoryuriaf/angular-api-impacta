@@ -3,6 +3,9 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Employee } from "../shared/employee";
 import { Observable, throwError } from "rxjs";
 import { retry, catchError } from "rxjs/operators";
+import { Injectable } from "@angular/core";
+
+@Injectable()
 
 export class RestApiService {
 // definindo o caminho para a base de dados

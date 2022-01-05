@@ -1,1 +1,18 @@
-<p>employee-create works!</p>
+<div class="container custom-container">
+    <div class= "col-mg-12">
+        <h3 class = "mb-3 text-center">Create Record</h3>
+
+        <!-- criando um formulário -->
+        <div class="form-group">
+            <input type="text" [(ngModel)] = employeeDetails.name placeholder="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="email" [(ngModel)] = employeeDetails.email placeholder="Email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="text" [(ngModel)] = employeeDetails.phone placeholder="Phone" class="form-control" />
+        </div>
+
+        <button class="btn btn-success btn-lg btn-block" (click) = "addEmployee()">Create Record</button>
+    </div>
+</div>
